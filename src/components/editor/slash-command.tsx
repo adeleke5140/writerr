@@ -249,8 +249,9 @@ const CommandList = ({
         return (
           <button
             ref={isSelected ? selectedButtonRef : null}
-            className={`flex w-full items-center space-x-2 rounded-md px-2 py-1 text-left text-sm text-gray-900 hover:bg-gray-100 ${isSelected ? "bg-gray-100 text-gray-900" : ""
-              }`}
+            className={`flex w-full items-center space-x-2 rounded-md px-2 py-1 text-left text-sm text-gray-900 hover:bg-gray-100 ${
+              isSelected ? "bg-gray-100 text-gray-900" : ""
+            }`}
             key={index}
             onClick={() => selectItem(index)}
           >
